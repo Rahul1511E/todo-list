@@ -1,0 +1,22 @@
+Make sure that you installed Node.js and npm in your system.
+
+Download and install My sql and run schema.sql script in it.
+
+Edit the password in server.js(mysql password)
+
+
+
+Open 2 Terminals in current directory
+
+Terminal 1:(To start server) Enter the following commands
+npm install 
+node server.js
+(The server should start running)
+
+Terminal 2:(To run the React app)
+cd src
+npm install
+npm run build
+
+
+Now go to localhost:5001 in chrome
